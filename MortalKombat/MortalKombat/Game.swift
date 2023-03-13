@@ -12,4 +12,5 @@ class Game: NSObject {
     var nameDescription: String = ""
     var fightStyle: String = ""
     var imageCharacter: String = ""
+    var imageScreenTwo: String = ""
 }
