@@ -18,6 +18,7 @@
 		75EC5FBB29BFB175002FEE1C /* MortalKombatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EC5FBA29BFB175002FEE1C /* MortalKombatTests.swift */; };
 		75EC5FC529BFB175002FEE1C /* MortalKombatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EC5FC429BFB175002FEE1C /* MortalKombatUITests.swift */; };
 		75EC5FC729BFB175002FEE1C /* MortalKombatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EC5FC629BFB175002FEE1C /* MortalKombatUITestsLaunchTests.swift */; };
+		75EC5FD429BFB297002FEE1C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EC5FD329BFB297002FEE1C /* Game.swift */; };
 		B25E6EC7C7453B8FB8C89793 /* Pods_MortalKombatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A3C8DD401AF9ECE5D6F050 /* Pods_MortalKombatTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		75EC5FC029BFB175002FEE1C /* MortalKombatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MortalKombatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EC5FC429BFB175002FEE1C /* MortalKombatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortalKombatUITests.swift; sourceTree = "<group>"; };
 		75EC5FC629BFB175002FEE1C /* MortalKombatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortalKombatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75EC5FD329BFB297002FEE1C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		D85AED3FECDBEB6174CCA389 /* Pods_MortalKombat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MortalKombat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A3C8DD401AF9ECE5D6F050 /* Pods_MortalKombatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MortalKombatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55B299658C47CB760FDA123 /* Pods-MortalKombat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MortalKombat.debug.xcconfig"; path = "Target Support Files/Pods-MortalKombat/Pods-MortalKombat.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,7 +103,6 @@
 				3BB8624B5BE838F2F332297E /* Pods-MortalKombatTests.debug.xcconfig */,
 				5267D9B0BAB4649DCBE123CF /* Pods-MortalKombatTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -134,6 +135,7 @@
 				75EC5FA529BFB174002FEE1C /* SceneDelegate.swift */,
 				75EC5FA729BFB174002FEE1C /* ViewController.swift */,
 				75EC5FA929BFB174002FEE1C /* Main.storyboard */,
+				75EC5FD329BFB297002FEE1C /* Game.swift */,
 				75EC5FAC29BFB175002FEE1C /* Assets.xcassets */,
 				75EC5FAE29BFB175002FEE1C /* LaunchScreen.storyboard */,
 				75EC5FB129BFB175002FEE1C /* Info.plist */,
@@ -410,6 +412,7 @@
 				75EC5FA829BFB174002FEE1C /* ViewController.swift in Sources */,
 				75EC5FA429BFB174002FEE1C /* AppDelegate.swift in Sources */,
 				75EC5FA629BFB174002FEE1C /* SceneDelegate.swift in Sources */,
+				75EC5FD429BFB297002FEE1C /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
