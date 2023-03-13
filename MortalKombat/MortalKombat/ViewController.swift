@@ -70,6 +70,7 @@ class ViewController: UIViewController {
         arrayFighter.append(fight6)
         
         myTableView.dataSource = self
+        myTableView.delegate = self
         let uiNIB = UINib(nibName: "MyTableViewCellXIB", bundle: nil)
         myTableView.register(uiNIB, forCellReuseIdentifier: "CellXIB")
     }
@@ -86,5 +87,14 @@ extension ViewController: UITableViewDataSource {
             return cell
         }
         return UITableViewCell()
+    }
+}
+
+extension ViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let myScreen = storyboard?.instantiateViewController(withIdentifier: "screenTwo") as? SecondViewController {
+            myScreen.connectionScreen2 = arrayFighter[indexPath.row]
+            self.navigationController?.pushViewController(myScreen, animated: true)
+        }
     }
 }
